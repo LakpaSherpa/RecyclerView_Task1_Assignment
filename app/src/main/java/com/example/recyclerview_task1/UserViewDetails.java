@@ -20,6 +20,8 @@ public class UserViewDetails extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user);
 
+        getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
+
         tvtitle = (TextView) findViewById(R.id.txttitle);
         tvdescription = (TextView) findViewById(R.id.txtdesc);
          img =(ImageView) findViewById(R.id.userthumbnail);
